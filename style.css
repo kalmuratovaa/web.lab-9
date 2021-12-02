@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1180px;
+    top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    transform: scale(0.8);
+	animation: zoomIn 8s ease-out forwards;
+}
+@keyframes zoomIn {
+	100% {
+		transform: scale(1)
+	}
+}
+.backgound__img{
+    position: absolute;
+    width: 680px;
+    height: 720px;
+    left: 49px;
+    top: 50px;
+    border-radius: 29px;
+    background-position: right;
+    background-position-y: top;
+    animation: zoomin 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes zoomin{
+    0%{
+        transform:scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform:scale(1);
+        visibility: visible;
+    }
+}
+
+.letters h3{
+    position: absolute;
+    width: 435px;
+    height: 56px;
+    left: 110px;
+    top: 620px;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 55px;
+    }
+.letters p{
+    position: absolute;
+    width: 301px;
+    height: 38px;
+    left: 110px;
+    top: 680px;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+}
+.welcome-section span{
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    left: 950px;
+    top: 145px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #9E896A;
+}
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+.rectangle{
+    position: absolute;
+    width: 329px;
+    height: 59px;
+    left: 890px;
+    top: 193px;
+    background: #F8EDDD;
+    border-radius: 33px;
+}
+.rectangle p{
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 185px;
+    top: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9E896A;
+}
+.rectangle79{
+    position: absolute;
+    width: 143px;
+    height: 40px;
+    left: 10px;
+    top: 10px;
+    background: #9E896A;
+    border-radius: 33px;
+}
+.rectangle79 p{
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 35px;
+    top: -5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.text-div{
+    position: absolute;
+    width: 454px;
+    height: 49px;
+    left: 809px;
+    top: 304px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2c2b2b;
+}
+/* width: 454px;
+    height: 49px;
+    left: 889px;
+    top: 304px; */
+.login-page {
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 809px;
+    top: 395px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.login-form .group .username{
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 809px;
+    top: 385px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.login-form .group .inputuser{
+    position: absolute;
+    width: 435px;
+    height: 54px;
+    left: 809px;
+    top: 420px;
+    background: #FFFFFF;
+    border: 1px solid #9E896A;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.login-form .group .inputuser.placeholder {
+    position: absolute;
+    width: 159px;
+    height: 23px;
+    left: 900px;
+    top: 446px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ACACAC;
+  }
+.login-form .group .password{
+    position: absolute;
+    width: 78px;
+    height: 24px;
+    left: 809px;
+    top: 495px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+.login-form .group .inputpass{
+    position: absolute;
+    width: 435px;
+    height: 54px;
+    left: 809px;
+    top: 530px;
+    background: #FFFFFF;
+    border: 1px solid #9E896A;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.login-form .group .check{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 809px;
+    top: 630px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.login-form .group .rememberme{
+    position: absolute;
+    width: 90px;
+    height: 18px;
+    left: 835px;
+    top: 633px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+}
+.login-form .group .forgotpass{
+    position: absolute;
+    width: 108px;
+    height: 18px;
+    left: 1100px;
+    top: 633px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.login-form .group .btn-transparent{
+    position: absolute;
+    width: 232px;
+    height: 49px;
+    left: 999px;
+    top: 707px;
+    background: #9E896A;
+    border-radius: 36px;
+}
+
+.btn-transparent:hover, .btn-transparent:focus{
+    cursor: pointer;
+    box-shadow: 7px 7px 0px;
+    color: black;
+}
+    @media (min-width: 600px) {
+        .btn-transparent {
+          width: 50%;
+          float: left;
+        }
+      }
+
+.login-form .group .email{
+    position: absolute;
+    width: 112px;
+    height: 24px;
+    left: 809px;
+    top: 605px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.login-form .group .inputemail{
+    position: absolute;
+    width: 435px;
+    height: 54px;
+    left: 809px;
+    top: 640px;
+    background: #FFFFFF;
+    border: 1px solid #9E896A;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.login-form .group .button_reg{
+    position: absolute;
+    width: 232px;
+    height: 49px;
+    left: 1000px;
+    top: 738px;
+    background: #9E896A;
+    border-radius: 36px;
+}
